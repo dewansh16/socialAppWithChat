@@ -1,0 +1,96 @@
+.place::placeholder {
+  color: #e70d0d;
+}
+
+.place {
+  width: 224px;
+}
+
+.mySelect__menu.css-iouw0n-menu div {
+  max-height: 210px;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #2e65e5;
+  border-width: 1px;
+}
+
+.placeholder {
+  background-color: #e70d0d;
+}
+
+.placeholder::placeholder {
+  color: #e70d0d;
+}
+
+.mySelect__value-container {
+  height: 42px;
+  border-color: #e70d0d;
+}
+
+.imgInput {
+  padding: 11px 16px;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-radius: 10px;
+}
+
+.imgInput p {
+  /* font-family: 'Elza'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  color: #858585;
+}
+
+.uploadmore p {
+  color: #ff3520;
+}
+
+.mySelect {
+}
+
+.inputborder .css-1hb7zxy-IndicatorsContainer .css-1u9des2-indicatorSeparator {
+  width: 0;
+}
+
+.inputborder .mySelect__menu-notice.css-1wlit7h-NoOptionsMessage {
+  text-align: left;
+  font-family: "elza";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  color: #616161;
+  padding: 14px 17px 10px;
+}
+
+.inputborder .mySelect__menu-list .mySelect__option {
+  font-family: "elza";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  color: #616161;
+  padding: 12px 16px;
+}
+
+.inputborder .mySelect__menu .mySelect__menu-list {
+  padding: 8px 0px;
+  gap: 4px;
+  isolation: isolate;
+}
+
+.mySelect__input-container.css-1h01tm3-Input {
+  margin-bottom: -5px;
+}
+
+.mySelect__indicator-separator.css-894a34-indicatorSeparator {
+  display: none;
+}

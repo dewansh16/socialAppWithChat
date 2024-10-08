@@ -1,0 +1,111 @@
+.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container {
+  /* height: au; */
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded {
+  height: 100vh;
+  margin: 0;
+}
+
+.edit-box {
+  width: 942px;
+}
+
+.MuiDialog-container
+  .css-2rbg70-MuiPaper-root-MuiDialog-paper
+  .edit-box
+  .edit-container
+  .edit-over.edit-overflow {
+  overflow-y: scroll;
+  margin-right: 4px;
+  margin-left: 4px;
+  height: 63vh;
+}
+
+.MuiDialog-container
+  .css-2rbg70-MuiPaper-root-MuiDialog-paper
+  .edit-box
+  .edit-container
+  .edit-over.edit-overflow::-webkit-scrollbar {
+  width: 4px;
+}
+
+.edit-container {
+  width: 100%;
+  /* background: tan; */
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+
+.MuiDialog-container .css-2rbg70-MuiPaper-root-MuiDialog-paper {
+  border-radius: 12px;
+  overflow-y: hidden;
+}
+
+.MuiDialog-container
+  .css-2rbg70-MuiPaper-root-MuiDialog-paper::-webkit-scrollbar {
+  /* margin-top: 10px; */
+  /* width: 0px; */
+  /* border: none;
+    height: 0px;
+    background: #FFFFFF; */
+  /* overflow-y: hidden; */
+}
+
+/* .MuiDialog-container
+  .css-2rbg70-MuiPaper-root-MuiDialog-paper::-webkit-scrollbar-track:vertical {
+  background: #138dec;
+  overflow: hidden;
+} */
+
+::-webkit-scrollbar-track:vertical {
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 8px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  border-radius: 4px;
+  background: #d9d9d9;
+}
+
+.edit-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 12px 4px 24px;
+  margin: 0px 32px 0px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.edit-name-box {
+  gap: 6px;
+}
+
+.edit-prof-about {
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 12px;
+  gap: 10px;
+  isolation: isolate;
+}
+
+.edit-container textarea:focus {
+  outline: none !important;
+  border-color: #138dec;
+  border-width: 1px;
+}
+
+.edit-container label:focus-within {
+  outline: none !important;
+  border-color: #138dec;
+  border-width: 1px;
+}

@@ -1,0 +1,356 @@
+.resp {
+  display: none;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+.signup-input {
+  margin: 0 160px;
+  width: 40%;
+  /* background: tan; */
+  margin-top: 112px;
+  margin-bottom: 256px;
+}
+
+.signup-progress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.signup-progress p {
+  /* font-family: 'Elza'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.pbar {
+  width: 141px;
+  height: 8px;
+  background: #c7c7c7;
+  border-radius: 16px;
+}
+
+.signup-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 9px;
+}
+
+.signup-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.signup-text h2 {
+  /* font-family: 'IvyJournal'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #242424;
+}
+
+.signup-text p {
+  /* font-family: 'Elza'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* letter-spacing: 0.015em; */
+  color: #424242;
+}
+
+.sign-up-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 100%;
+  margin-bottom: 42px;
+}
+
+.inputborder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  width: 100%;
+}
+
+.inputborder p {
+  /* font-family: 'Elza'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #242424;
+}
+
+.inputborder p.color {
+  color: #242424;
+}
+
+.inputborder input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 11px 16px;
+  gap: 4px;
+  width: 100%;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  /* font-family: 'elza'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+}
+
+.inputborder input::placeholder {
+  color: #858585;
+}
+
+.sign-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.sign-button h5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 24px 11px;
+  gap: 10px;
+  background: #ff3520;
+  border-radius: 8px;
+  /* font-family: 'Elza'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sign-button h5:hover {
+  background: #cc1508;
+}
+
+.sign-button a :hover {
+  background-color: #cc1508;
+}
+
+.sign-button.back p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 24px 11px;
+  gap: 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  /* font-family: 'Elza'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #242424;
+  cursor: pointer;
+}
+
+.next-back-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.signup-pic {
+  width: 708px;
+  height: 900px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  background-image: url("../assets/images/Gradient31.png");
+  margin: 0;
+}
+
+.signup-pic-container {
+  width: 411px;
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 123px;
+  margin-left: 96px;
+  margin-top: 110px;
+}
+
+.text-sidebar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 10px;
+  background: #ffffff;
+  box-shadow: 12px 12px 0px #000000;
+  border-radius: 24px;
+}
+
+.text-sidebar p {
+  /* font-family: 'Elza'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.error-text {
+  /* font-family: 'Elza'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #ff3520;
+  margin-top: 13px;
+}
+
+.mySelect__value-container.css-1fdsijx-ValueContainer {
+  padding: 8px 16px 12px;
+}
+
+.mySelect__input-container.css-qbdosj-Input {
+  margin: 0px;
+  padding-top: 0px;
+}
+
+.mySelect__placeholder.css-1jqq78o-placeholder {
+  margin: 0px;
+}
+
+@media screen and (max-width: 1600px) {
+  .signup-input {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .signup-pic {
+    width: 568px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .desktop {
+    display: none;
+  }
+
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-start;
+  }
+
+  .mobile-progress {
+    margin: 0 16px;
+    margin-top: 40px;
+  }
+
+  .signup-progress-text {
+    font-family: "Elza";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.015em;
+    color: #424242;
+  }
+
+  .signup-progress-bars {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 16px 0;
+  }
+
+  .signup-progress-bars img {
+    width: 120px;
+  }
+
+  .signup-input {
+    width: 100%;
+    margin: 0px 16px;
+  }
+
+  .sign-up-inputs {
+    padding-right: 16px;
+  }
+
+  .signup-header {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 0px 16px 16px;
+  }
+
+  .signup-header-text {
+    font-family: "Elza";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #ff3520;
+    margin: auto 0px auto auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .signup-progress-bars img {
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .signup-progress-bars img {
+    width: 100px;
+  }
+}

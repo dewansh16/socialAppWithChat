@@ -1,0 +1,8 @@
+.network-links-div {
+  height: 48px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+}

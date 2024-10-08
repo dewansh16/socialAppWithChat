@@ -1,0 +1,120 @@
+.Bottom-black-box {
+  width: 80%;
+  margin: 0 80px;
+  height: 346px;
+  background: #242424;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-black-box-text {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 180px 80px 0px;
+  gap: 48px;
+}
+
+.bottom-black-box-text-bold {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-black-box-text-bold h1 {
+  height: 54px;
+
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  /* identical to box height, or 54px */
+
+  text-align: center;
+  letter-spacing: 0.015em;
+
+  /* Default/BG */
+  padding: 0 16px;
+  color: #ffffff;
+}
+
+.bottom-black-box-text p {
+  height: 24px;
+  /* font-family: 'Roc Grotesk'; */
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  /* text-align: center; */
+  letter-spacing: 0.015em;
+}
+
+.bottom-black-box-text .home-button {
+  margin-top: 60px;
+}
+
+.only-text {
+  gap: 24px;
+}
+
+@media screen and (max-width: 1600px) {
+  .Bottom-black-box {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .only-text {
+    gap: 4px;
+  }
+
+  .Bottom-black-box {
+    width: 100%;
+    height: fit-content;
+    padding: 24px 20px;
+    gap: 24px;
+    isolation: isolate;
+    background: #242424;
+    border-radius: 12px;
+    margin: 0;
+  }
+
+  .bottom-black-box-text {
+    margin: 0;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .bottom-black-box-text-bold {
+    gap: 12px;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .bottom-black-box-text-bold img {
+    margin-bottom: 4px;
+    height: 8px;
+    width: 8px;
+  }
+
+  .bottom-black-box-text-bold h1,
+  .bottom-black-box-text p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bottom-black-box-text-bold {
+    width: 100%;
+    height: fit-content;
+  }
+}

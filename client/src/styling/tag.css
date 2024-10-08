@@ -1,0 +1,28 @@
+.tags{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tag{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 8px 2px;
+    gap: 4px;
+    font-family: 'elza';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.015em;
+    color: #242424;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    width: fit-content;
+    text-align:start;
+    /* cursor: pointer; */
+}
+

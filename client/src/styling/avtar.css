@@ -1,0 +1,62 @@
+.avtar.avtar-1 {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #424242;
+  color: #fff;
+}
+
+.avtar.avtar-2 {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-color: #424242;
+  color: #fff;
+}
+
+.avtar.avtar-3 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #424242;
+  color: #fff;
+}
+
+.avtar {
+  border-radius: 50%;
+}
+
+.avtar.x-small {
+  width: 20px;
+  height: 20px;
+  background: #616161;
+  color: #fff;
+}
+
+.avtar.small {
+  width: 20px;
+  height: 20px;
+  background: #616161;
+  color: #fff;
+}
+
+.avtar.medium {
+  width: 32px;
+  height: 32px;
+  background: #616161;
+  color: #fff;
+}
+
+.avtar.large {
+  width: 44px;
+  height: 44px;
+  background: #616161;
+  color: #fff;
+}
+
+.avtar.x-large {
+  width: 64px;
+  height: 64px;
+  background: #616161;
+  color: #fff;
+}

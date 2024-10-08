@@ -1,0 +1,121 @@
+.group-chat-side {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.limit-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.group-chat-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 48px;
+  /* background: yellow; */
+  width: 270px;
+}
+
+.sidebar-nav {
+  height: fit-content;
+  /* background: lawngreen; */
+  padding: 8px 24px;
+}
+
+.sidebar-nav-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 12px;
+  width: 222px;
+  cursor: pointer;
+}
+
+.linkbox {
+  /* background-color: rebeccapurple; */
+  padding: 20px;
+}
+
+.sidebar-nav-item p {
+  /* font-family: 'Elza'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  color: #616161;
+}
+
+/* .active.sidebar-nav-item p {
+  color: #ff3520;
+} */
+
+.sidebar-group-point .active div p {
+  color: FF3520;
+}
+
+.my-network {
+  padding: 8px 24px;
+}
+
+.sidebar-group-point .myactive p.font {
+  color: #ff3520;
+  font-weight: 500;
+}
+
+.sidebar-group-point {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 26px;
+}
+
+.sidebar-group-point p.font {
+  padding: 4px 16px 4px 38px;
+  cursor: pointer;
+  /* background: saddlebrown; */
+  text-align: center;
+  color: #616161;
+  border-left: 0.5px solid #d1d1d1;
+}
+
+/* .sidebar-group-point .active p.font {
+  color: #ff3520;
+} */
+
+@media screen and (max-width: 420px) {
+  .resp {
+    width: 100%;
+  }
+
+  .sidenavbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: var(--fill-bg, #fff);
+    box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.3s ease-out;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 16px;
+  }
+
+  .sidebar-nav-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: max-content;
+    padding: 16px;
+  }
+}

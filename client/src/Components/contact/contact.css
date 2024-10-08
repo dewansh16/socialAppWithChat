@@ -1,0 +1,263 @@
+.Container {
+  margin-top: 80px;
+}
+
+.main-contact {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-contact {
+  width: 576px;
+}
+
+.written {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.written h2 {
+  margin-bottom: 12px;
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #242424;
+}
+
+.written p {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #242424;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input-box {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  margin-bottom: 32px;
+}
+
+.h2 {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.input-box input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 10px;
+  width: 272px;
+  height: 41px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+}
+
+.input-box input::placeholder {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #c7c7c7;
+}
+
+.w-t-us {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+}
+
+.w-t-us textarea {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px 16px;
+  gap: 10px;
+  width: 576px;
+  height: 139px;
+  max-width: 575px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+}
+
+.w-t-us textarea::placeholder {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #c7c7c7;
+}
+
+.check-box {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.check-box input {
+  height: 24px;
+  width: 24px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+}
+
+.check-box p {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #424242;
+}
+
+.check-box p span {
+  color: #ff3520;
+}
+
+.contact-button {
+  margin-top: 36px;
+}
+
+.contactdrop .mySelect__value-container {
+  padding-bottom: 16px;
+}
+
+.contactdrop .mySelect__value-container.css-1fdsijx-ValueContainer {
+  padding: 0px 16px;
+}
+
+.contactdrop .mySelect__placeholder.css-1jqq78o-placeholder {
+  /* font-family: "elza"; */
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.015rem;
+  color: #c0bdbd;
+  margin-bottom: 2px;
+}
+
+.contactdrop {
+  max-height: 41px;
+}
+
+.contactdrop .mySelect__control {
+  max-height: 41px;
+}
+
+.contactdrop .mySelect__value-container {
+  max-height: 41px;
+}
+
+.contactdrop .mySelect__single-value {
+  /* font-family: "elza"; */
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.015rem;
+  color: #424242;
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: 100%;
+    margin: 0px 16px;
+    padding: 0px;
+    flex-direction: column;
+  }
+
+  .container-heading {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .container-heading-contact {
+    color: var(--fill-forground, #242424);
+    font-size: 24px;
+    font-family: "roc-grotesk";
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.12px;
+  }
+
+  .main-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 32 16px;
+  }
+
+  .input-box {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .input-box input {
+    width: 100%;
+  }
+
+  .w-t-us {
+    margin: 0px;
+  }
+
+  .w-t-us textarea {
+    width: 100%;
+  }
+  .check-box {
+    margin-top: 8px;
+  }
+
+  .check-box p {
+    padding-top: 4px;
+  }
+
+  .check-box input {
+    width: 12px;
+  }
+
+  .contact-button {
+    margin: 8px 0px;
+    width: 100%;
+  }
+}

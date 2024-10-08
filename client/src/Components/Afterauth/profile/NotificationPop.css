@@ -1,0 +1,49 @@
+.notificationpop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 567px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  margin-right: 102px;
+  margin-top: 10px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.noti-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 12px;
+  width: 100%;
+}
+
+.notleft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  gap: 12px;
+}
+
+.notdetailbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 10px;
+}
+
+.notfright {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}

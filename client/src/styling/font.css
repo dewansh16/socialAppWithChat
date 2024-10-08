@@ -1,0 +1,115 @@
+.components {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.font.bold {
+  font-weight: 700;
+  width: fit-content;
+  height: fit-content;
+}
+
+.font.medium {
+  font-weight: 500;
+  width: fit-content;
+  height: fit-content;
+}
+
+.font.regular {
+  font-weight: 400;
+  width: fit-content;
+  height: fit-content;
+}
+
+.font.display {
+  font-family: "roc-grotesk";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.005rem;
+  color: #242424;
+}
+
+.font.heading1 {
+  font-family: "roc-grotesk";
+  font-style: normal;
+  font-size: 1.75rem;
+  line-height: 40px;
+  letter-spacing: -0.005rem;
+  color: #242424;
+}
+
+.font.heading2 {
+  font-family: "roc-grotesk";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.005rem;
+  color: #242424;
+}
+
+.font.heading3 {
+  font-family: "elza";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.015rem;
+  color: #424242;
+}
+
+.font.subheadline {
+  font-family: "elza";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.005rem;
+  color: #424242;
+}
+
+.font.body1 {
+  font-family: "elza";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005rem;
+  color: #424242;
+}
+
+.font.body2 {
+  font-family: "elza";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.015rem;
+  color: #424242;
+}
+
+.font.caption {
+  font-family: "elza";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.015rem;
+  color: #424242;
+}
+
+@media screen and (max-width: 1280px) {
+  .font.display {
+    font-family: "roc-grotesk";
+    font-style: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.005rem;
+    color: #242424;
+  }
+
+  .font.heading2 {
+    font-family: "roc-grotesk";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.005rem;
+    color: #242424;
+  }
+}

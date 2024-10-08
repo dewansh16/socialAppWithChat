@@ -1,0 +1,92 @@
+.just500 {
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.just500-inside {
+  width: 100%;
+  padding: 0 160px;
+  height: 268px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.just500-text {
+  height: 108px;
+  /* background-color: yellow; */
+}
+.just500-text h1 {
+  /* font-family: 'Roc Grotesk'; */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+
+  letter-spacing: 0.015em;
+
+  /* Default/BG */
+}
+
+.just500-text .colored {
+  color: #ff3520;
+}
+
+.newspaper {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 217px;
+  /* background-color: blueviolet; */
+}
+@media screen and (max-width: 1600px) {
+  .just500-inside {
+    width: 100%;
+    padding: 0 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .just500-inside {
+    width: 100%;
+    padding: 0 80px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .just500 {
+    padding: 24px 16px 0px 16px;
+    margin: 0;
+    width: 100%;
+    background-color: #242424;
+  }
+
+  .just500-inside {
+    display: flex;
+    gap: 16px;
+    margin: 0 8px;
+    flex-direction: column;
+    padding: 0;
+    height: fit-content;
+  }
+  /* .just500-text {
+    width: 80%;
+  } */
+
+  .newspaper {
+    margin: 0;
+    float: left;
+  }
+
+  .desktop {
+    display: none;
+  }
+}

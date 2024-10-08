@@ -1,0 +1,36 @@
+.terms-policies {
+  margin-top: 48px;
+}
+
+.terms-container h2 {
+  /* margin-bottom: 15px; */
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #242424;
+}
+
+.terms-container p,
+li {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #242424;
+}
+
+.terms-policies h2 {
+  margin-bottom: 6px;
+}
+
+.terms-policies p {
+  margin-bottom: 3px;
+}
+.terms-policies li {
+  margin-bottom: 3px;
+}

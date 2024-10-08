@@ -1,0 +1,92 @@
+.nav-parent {
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.nav-rectangle {
+  overflow-y: scroll;
+}
+.navbar {
+  width: 100%;
+  margin: 0px 160px;
+}
+
+.resp-logo {
+  display: none;
+}
+
+.tabs {
+  /* padding: 0px 8px; */
+  width: 333px;
+  height: 44px;
+}
+
+.tabs .active p {
+  color: #616161;
+}
+
+.tabs p {
+  padding: 10px 16px;
+  gap: 10px;
+}
+
+.button {
+  gap: 10px;
+}
+
+.button button {
+  /* font-family: RocGrotesk; */
+  border: 1px solid #d1d1d1;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #ff3520;
+}
+
+.homepop {
+  width: 526px;
+}
+
+@media screen and (max-width: 1600px) {
+  .navbar {
+    margin: 0px 80px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navbar {
+    padding: 12px 16px;
+    margin: 0px;
+  }
+
+  .uttertale .resp {
+    display: flex;
+  }
+
+  .uttertale .desktop {
+    display: none;
+  }
+
+  .nav-rectangle {
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .resp-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  }
+
+  .tabs {
+    display: none;
+  }
+
+  .landing-respo {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

@@ -1,0 +1,97 @@
+.Howitworks {
+  padding: 0 160px;
+  width: 100%;
+  /* background-color: pink; */
+}
+
+.how-works {
+  /* background: red; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.how-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px 16px;
+  gap: 32px;
+}
+
+.how-img {
+  margin: 0 auto;
+}
+
+.howtext {
+  width: 300px;
+  color: #000000;
+}
+
+.howtext h1 {
+  padding: auto;
+}
+
+.how-inside p {
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  letter-spacing: 0.015em;
+}
+
+@media screen and (max-width: 1600px) {
+  .Howitworks {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .desktop {
+    display: none;
+  }
+
+  .Howitworks {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 24px 0px;
+    height: fit-content;
+  }
+
+  .h-i-w-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 4px;
+  }
+
+  .how-works {
+    margin: auto;
+    width: 50%;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0;
+    height: fit-content;
+  }
+
+  .how-inside {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 16px 4px;
+    gap: 16px;
+    margin: auto;
+  }
+
+  .how-t-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}

@@ -1,0 +1,80 @@
+.Contacts-bottom {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  padding-left: 160px;
+  padding-right: 160px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+}
+
+/* margin-top: ; */
+.contact-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 37.41%;
+  /* background-color: rebeccapurple; */
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 251px;
+}
+
+.resp-terms {
+  display: none;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 20px;
+}
+
+.terms p {
+  height: 24px;
+
+  /* font-family: 'Roc Grotesk'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.015em;
+
+  /* Default/Forground 1 */
+
+  color: #424242;
+}
+
+@media screen and (max-width: 1600px) {
+  .Contacts-bottom {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .Contacts-bottom {
+    width: 100%;
+    padding: 32px 16px;
+    gap: 24px;
+  }
+  .terms {
+    display: none;
+  }
+  .resp-terms {
+    display: flex;
+    gap: 24px;
+  }
+}

@@ -1,0 +1,27 @@
+.group-members-container-page {
+  height: 100vh;
+  width: 100%;
+}
+.group-members-container-mobile {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.g-m-box-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.g-c-h-left-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 0px;
+  gap: 10px;
+}

@@ -1,0 +1,86 @@
+.popup.rpt-arrow{
+    max-width: 8px;
+    max-height: 8px;
+}
+
+.popup.bottom .rpt-arrow{
+    margin-top: 5px;
+}
+
+.popup.top .rpt-arrow{
+    margin-top: 11px;
+}
+
+.popup.h-left .rpt-arrow{
+    margin-left: 30px;
+}
+
+.popup.h-right .rpt-arrow{
+    margin-right: 30px;
+}
+
+.popup.left .rpt-arrow{
+    margin-right: 5px;
+}
+
+.popup.right .rpt-arrow{
+    margin-left: 5px;
+}
+
+.popup.v-bottom .rpt-arrow{
+    margin-bottom: 10px;
+}
+
+.popup.v-top .rpt-arrow{
+    margin-top: 14px;
+}
+
+.popup.v-center .rpt-arrow{
+    margin-top: 7px;
+}
+
+.popup .rpt-textbox .rpt-hover p{
+    max-width: fit-content;
+    /* font-family: 'elza'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.015rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.popup.bottom .rpt-textbox .rpt-hover{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.popup.top .rpt-textbox .rpt-hover{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 3px;
+}
+
+.popup.left .rpt-textbox .rpt-hover{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 3px;
+}
+
+.popup.right .rpt-textbox .rpt-hover{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 3px;
+}
+
+
+.popup .rpt-shadow-container{
+    background: #242424;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+}
